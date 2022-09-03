@@ -1,0 +1,21 @@
+CREATE TABLE productos
+(
+id_producto int,
+nombre_m varchar(100),
+descripcion varchar(350),
+estado varchar(30),
+precio_u int,
+imagen varchar(500)
+)
+
+
+INSERT INTO productos (id_producto, nombre_m,descripcion,cantidad,precio_u,imagen)
+VALUES (1,'cargador samsung','Tipo:c # voltaje:220v',100,8,'https://th.bing.com/th/id/OIP.uSTb8HHMsGSCyu0qw7vQzgHaHy?pid=ImgDet&rs=1');
+INSERT INTO productos (id_producto, nombre_m,descripcion,cantidad,precio_u,imagen)
+VALUES (2,'cargador xiaomi','Tipo:c # voltaje:220v',50,10,'https://cdn-correosecommerce.ams3.cdn.digitaloceanspaces.com/prod-new/uploads/comandia_kareenaelectronics/1/product/1841-ieq91dfg-xiaomi-cargador-original-xiaomi-tipo-c-2a-sin-blister--1_thumb.jpg');
+INSERT INTO productos (id_producto, nombre_m,descripcion,cantidad,precio_u,imagen)
+VALUES (3,'audifonos samsung','Tipo:chupon # entrada C',40,10,'https://portatilshoprd.com/wp-content/uploads/2021/07/99206FA5-7D2F-41B1-82BA-D0AFB57782B5.jpeg');
+INSERT INTO productos (id_producto, nombre_m,descripcion,cantidad,precio_u,imagen)
+VALUES (4,'audifonos boos','Tipo:Casco # entrada : jack',50,30,'https://th.bing.com/th/id/OIP.QT2fq_do2vS3xtSEzYka6gHaHV?pid=ImgDet&rs=1');
+INSERT INTO productos (id_producto, nombre_m,descripcion,cantidad,precio_u,imagen)
+VALUES (5,'luz led',,'Tipo:Aro de luz # Con tripode incluido',30,30,'https://th.bing.com/th/id/OIP.TuzOuzQCCYho6dNrCxQu1AHaH4?pid=ImgDet&rs=1');
